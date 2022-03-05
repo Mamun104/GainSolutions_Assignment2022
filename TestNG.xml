@@ -1,7 +1,13 @@
 <suite thread-count="1" verbose="1" name="App Major Functionalities Test">
     <test name="Login Page Test">
         <classes>
-            <class name="TestRunner"/>
+            <class name="TestRunner.LoginTestRunner"/>
+        </classes>
+    </test>
+
+    <test name="Join With Us">
+        <classes>
+            <class name="TestRunner.JoinTestRunner"/>
         </classes>
     </test>
 </suite>
