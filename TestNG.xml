@@ -1,0 +1,7 @@
+<suite thread-count="1" verbose="1" name="App Major Functionalities Test">
+    <test name="Login Page Test">
+        <classes>
+            <class name="TestRunner"/>
+        </classes>
+    </test>
+</suite>
