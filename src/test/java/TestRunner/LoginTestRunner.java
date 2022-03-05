@@ -1,10 +1,9 @@
 package TestRunner;
-import Pages.JoinWithUs;
 import Pages.LoginPage;
 import Setup.SetUp;
 import org.testng.annotations.Test;
 
-public class TestRunner extends SetUp {
+public class LoginTestRunner extends SetUp {
 
     LoginPage loginPage;
     
