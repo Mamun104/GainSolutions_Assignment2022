@@ -8,7 +8,7 @@ public class LoginTestRunner extends SetUp {
 
     LoginPage loginPage;
 
-    //@Test
+    @Test
     public void loginByEmailTest() throws InterruptedException {
         driver.get("https://partnerforsqa.dev.uniteliving.com/login");
         loginPage = new LoginPage(driver);
