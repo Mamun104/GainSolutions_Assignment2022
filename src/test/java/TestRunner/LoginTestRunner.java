@@ -1,4 +1,5 @@
 package TestRunner;
+
 import Pages.LoginPage;
 import Setup.SetUp;
 import org.testng.annotations.Test;
@@ -6,13 +7,19 @@ import org.testng.annotations.Test;
 public class LoginTestRunner extends SetUp {
 
     LoginPage loginPage;
-    
-    @Test
-    public void loginByFacebookTest(){
-        driver.get("https://partnerforsqa.dev.uniteliving.com/login");
 
+    //@Test
+    public void loginByEmailTest() throws InterruptedException {
+        driver.get("https://partnerforsqa.dev.uniteliving.com/login");
         loginPage = new LoginPage(driver);
         loginPage.loginByEmail();
+    }
+
+    @Test
+    public void loginByFacebookTest() throws InterruptedException {
+        driver.get("https://partnerforsqa.dev.uniteliving.com/login");
+        loginPage = new LoginPage(driver);
+        loginPage.loginByFacebook();
     }
 
 }
