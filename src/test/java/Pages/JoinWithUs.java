@@ -1,5 +1,6 @@
 package Pages;
 
+import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,6 +23,10 @@ public class JoinWithUs {
     }
 
     public void createAccountByEmail() throws InterruptedException {
+        Faker faker = new Faker();
+        String firstName = faker.name().firstName();
+        String randomEmail= firstName.toLowerCase()+"@mailinator.com";
+
         List<WebElement> btnJoin = driver.findElements(By.className("sign-dropdown"));
         Thread.sleep(2500);
         Actions actions = new Actions(driver);
@@ -31,9 +36,9 @@ public class JoinWithUs {
 
         wait = new WebDriverWait(driver, Duration.ofSeconds(80));
         WebElement username = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.id("name"))));
-        username.sendKeys("MD. MAMUNUR RASHID");
+        username.sendKeys(firstName);
         WebElement email = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.id("email"))));
-        email.sendKeys("mamunzaman340@gmail.com");
+        email.sendKeys(randomEmail);
         WebElement password = driver.findElement(By.id("password"));
         password.sendKeys("159159159");
         WebElement confirm_Password = driver.findElement(By.id("confirm_password"));

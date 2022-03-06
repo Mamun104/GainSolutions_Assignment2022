@@ -34,9 +34,10 @@ public class LoginPage {
     }
 
     public void loginByFacebook() throws InterruptedException {
-        List <WebElement> facebook = driver.findElements(By.xpath("facebook-link-text"));
-        Thread.sleep(5000);
-        facebook.get(0).click();
+        //List <WebElement> facebook = driver.findElements(By.xpath("facebook-link-text"));
+        Thread.sleep(3000);
+        List <WebElement> facebook = driver.findElements(By.xpath("//div[contains(text(),'Login with Facebook')]"));
+        facebook.get(1).click();
 
 
     }
