@@ -43,6 +43,10 @@ This is an Automation Task provided by Gain Solutions for the purpose of hiring 
 
       allure generate allure-results --clean -o allure-report
       allure serve allure-results
+      
+# Screenshots
+
+These are the snapshots of the allure reports:
 
 ![2](https://user-images.githubusercontent.com/78067017/157024346-5a4ce8d0-b078-408f-a87b-40a59344977e.PNG)
 
