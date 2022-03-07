@@ -2,6 +2,11 @@
 
 This is an Automation Task provided by Gain Solutions for the purpose of hiring process.
 
+# Manual Test Cases 
+
+[GainSolution_Task.xlsx](https://github.com/Mamun104/GainSolutions_Assignment2022/files/8199735/GainSolution_Task.xlsx)
+
+
 # Technology:
 1.Tool: selenium Webdriver
 
