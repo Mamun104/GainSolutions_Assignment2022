@@ -8,6 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.time.Duration;
 import java.util.List;
@@ -22,10 +23,10 @@ public class JoinWithUs {
         PageFactory.initElements(driver, this);
     }
 
-    public void createAccountByEmail() throws InterruptedException {
+    public void joinByEmail() throws InterruptedException {
         Faker faker = new Faker();
         String firstName = faker.name().firstName();
-        String randomEmail= firstName.toLowerCase()+"@mailinator.com";
+        String randomEmail = firstName.toLowerCase() + "@mailinator.com";
 
         List<WebElement> btnJoin = driver.findElements(By.className("sign-dropdown"));
         Thread.sleep(2500);
@@ -48,6 +49,34 @@ public class JoinWithUs {
 
         List<WebElement> btnRegister = driver.findElements(By.className("btn-primary"));
         btnRegister.get(0).click();
+
+        wait = new WebDriverWait(driver, Duration.ofSeconds(80));
+        String text = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("activate-account-header")))).getText();
+        Assert.assertTrue(text.contains("Activate your account"));
+
+    }
+
+    public void joinByFacebook() throws InterruptedException {
+
+        List<WebElement> btnJoin = driver.findElements(By.className("sign-dropdown"));
+        Thread.sleep(2500);
+        Actions actions = new Actions(driver);
+        actions.moveToElement(btnJoin.get(0)).click().build().perform();
+        Thread.sleep(3000);
+        List<WebElement> fbBtn = driver.findElements(By.className("facebook-link-text"));
+        fbBtn.get(0).click();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(80));
+        WebElement checkMark = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("checkmark"))));
+        checkMark.click();
+        wait = new WebDriverWait(driver, Duration.ofSeconds(80));
+        WebElement registerBtn = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("//button[contains(text(),'Register')]"))));
+        registerBtn.click();
+
+        wait = new WebDriverWait(driver, Duration.ofSeconds(150));
+        String text = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.className("fsl")))).getText();
+        Assert.assertTrue(text.contains("URL blocked"));
+
+
 
     }
 }

@@ -1,0 +1,80 @@
+{
+  "uid" : "421b3a913dc8c20f",
+  "name" : "joinByFacebookTest",
+  "fullName" : "TestRunner.JoinTestRunner.joinByFacebookTest",
+  "historyId" : "121a865918d715a2fb4146599cf0d09f",
+  "time" : {
+    "start" : 1646648170054,
+    "stop" : 1646648185455,
+    "duration" : 15401
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1646648087489,
+      "stop" : 1646648100553,
+      "duration" : 13064
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "TestRunner.JoinTestRunner"
+  }, {
+    "name" : "testClass",
+    "value" : "TestRunner.JoinTestRunner"
+  }, {
+    "name" : "testMethod",
+    "value" : "joinByFacebookTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "App Major Functionalities Test"
+  }, {
+    "name" : "suite",
+    "value" : "Join With Us"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRunner.JoinTestRunner"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0K4P3UP"
+  }, {
+    "name" : "thread",
+    "value" : "8920@DESKTOP-0K4P3UP.Test worker(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "421b3a913dc8c20f.json",
+  "parameterValues" : [ ]
+}

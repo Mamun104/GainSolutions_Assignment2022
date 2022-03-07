@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Mar 07 16:20:58 BDT 2022","Mon Mar 07 16:21:07 BDT 2022","9530","App Major Functionalities Test","Join With Us","TestRunner.JoinTestRunner","TestRunner.JoinTestRunner","joinByFacebookTest","joinByFacebookTest",""
+"passed","Mon Mar 07 16:20:20 BDT 2022","Mon Mar 07 16:20:34 BDT 2022","14230","App Major Functionalities Test","Login Page Test","TestRunner.LoginTestRunner","TestRunner.LoginTestRunner","loginByEmailTest","loginByEmailTest",""
+"passed","Mon Mar 07 16:20:37 BDT 2022","Mon Mar 07 16:20:58 BDT 2022","21124","App Major Functionalities Test","Join With Us","TestRunner.JoinTestRunner","TestRunner.JoinTestRunner","joinByEmailTest","joinByEmailTest",""
+"passed","Mon Mar 07 16:21:15 BDT 2022","Mon Mar 07 16:21:51 BDT 2022","35148","App Major Functionalities Test","Create Account","TestRunner.AccountTestRunner","TestRunner.AccountTestRunner","accountCreate","accountCreate",""

@@ -1,0 +1,101 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "App Major Functionalities Test",
+    "children" : [ {
+      "name" : "Login Page Test",
+      "children" : [ {
+        "name" : "TestRunner.LoginTestRunner",
+        "children" : [ {
+          "name" : "loginByEmailTest",
+          "uid" : "f0a4beaf4d2e9132",
+          "parentUid" : "4615679ff169c0cb9d52339d94dfc540",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646648420018,
+            "stop" : 1646648434248,
+            "duration" : 14230
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "4615679ff169c0cb9d52339d94dfc540"
+      } ],
+      "uid" : "b9b77ed2aa21ba1f612df96eb42cabe1"
+    }, {
+      "name" : "Join With Us",
+      "children" : [ {
+        "name" : "TestRunner.JoinTestRunner",
+        "children" : [ {
+          "name" : "joinByEmailTest",
+          "uid" : "ffca1b40a2a4777e",
+          "parentUid" : "3c0ff120812500041364e109ca34f3a7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646648437061,
+            "stop" : 1646648458185,
+            "duration" : 21124
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "joinByFacebookTest",
+          "uid" : "6c06770498b8391d",
+          "parentUid" : "3c0ff120812500041364e109ca34f3a7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646648458188,
+            "stop" : 1646648467718,
+            "duration" : 9530
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3c0ff120812500041364e109ca34f3a7"
+      } ],
+      "uid" : "a92218330550bb6d13910a6dcbbe2f2f"
+    }, {
+      "name" : "Create Account",
+      "children" : [ {
+        "name" : "TestRunner.AccountTestRunner",
+        "children" : [ {
+          "name" : "accountCreate",
+          "uid" : "221dda5c1699f6b",
+          "parentUid" : "da9552ea03a6810a385891653edacb11",
+          "status" : "passed",
+          "time" : {
+            "start" : 1646648475946,
+            "stop" : 1646648511094,
+            "duration" : 35148
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "da9552ea03a6810a385891653edacb11"
+      } ],
+      "uid" : "57054a084e752ae579e836695ae6a940"
+    } ],
+    "uid" : "45ea6cdef90ab84ab9d9791e0a6be45f"
+  } ]
+}

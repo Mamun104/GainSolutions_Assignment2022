@@ -10,4 +10,10 @@
             <class name="TestRunner.JoinTestRunner"/>
         </classes>
     </test>
+    <test name="Create Account">
+        <classes>
+            <class name="TestRunner.AccountTestRunner"/>
+        </classes>
+    </test>
+
 </suite>

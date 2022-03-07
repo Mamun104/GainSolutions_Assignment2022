@@ -1,4 +1,5 @@
 package Setup;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -13,18 +14,15 @@ public class SetUp {
     public WebDriver driver;
 
     @BeforeTest
-    public void setUp()throws IOException {
+    public void setUp() throws IOException {
 
         System.setProperty("webdriver.chrome.driver", "./src/test/resources/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headed");
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 
     }
-    /*@AfterTest
-    public void closeBrowser(){
-        driver.close();
-    }*/
+
 }

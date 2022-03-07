@@ -1,0 +1,153 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-0K4P3UP",
+    "children" : [ {
+      "name" : "8920@DESKTOP-0K4P3UP.Test worker(1)",
+      "children" : [ {
+        "name" : "accountCreate",
+        "uid" : "43c4bb7bb85b394e",
+        "parentUid" : "030a9cb1cce4ffb49649c0ef66d2f380",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648196664,
+          "stop" : 1646648253597,
+          "duration" : 56933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "joinByFacebookTest",
+        "uid" : "421b3a913dc8c20f",
+        "parentUid" : "030a9cb1cce4ffb49649c0ef66d2f380",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648170054,
+          "stop" : 1646648185455,
+          "duration" : 15401
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "joinByEmailTest",
+        "uid" : "466e3ff5cd025054",
+        "parentUid" : "030a9cb1cce4ffb49649c0ef66d2f380",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646648101018,
+          "stop" : 1646648170049,
+          "duration" : 69031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginByEmailTest",
+        "uid" : "684be1f40163cef4",
+        "parentUid" : "030a9cb1cce4ffb49649c0ef66d2f380",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648074759,
+          "stop" : 1646648087146,
+          "duration" : 12387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "030a9cb1cce4ffb49649c0ef66d2f380"
+    }, {
+      "name" : "14772@DESKTOP-0K4P3UP.Test worker(1)",
+      "children" : [ {
+        "name" : "accountCreate",
+        "uid" : "221dda5c1699f6b",
+        "parentUid" : "08cdf758449e4cedc6265cac7bb7e754",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648475946,
+          "stop" : 1646648511094,
+          "duration" : 35148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "joinByFacebookTest",
+        "uid" : "6c06770498b8391d",
+        "parentUid" : "08cdf758449e4cedc6265cac7bb7e754",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648458188,
+          "stop" : 1646648467718,
+          "duration" : 9530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "loginByEmailTest",
+        "uid" : "f0a4beaf4d2e9132",
+        "parentUid" : "08cdf758449e4cedc6265cac7bb7e754",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648420018,
+          "stop" : 1646648434248,
+          "duration" : 14230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "joinByEmailTest",
+        "uid" : "ffca1b40a2a4777e",
+        "parentUid" : "08cdf758449e4cedc6265cac7bb7e754",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648437061,
+          "stop" : 1646648458185,
+          "duration" : 21124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "08cdf758449e4cedc6265cac7bb7e754"
+    } ],
+    "uid" : "086636396feff7d9d47cb23c000da32e"
+  } ]
+}

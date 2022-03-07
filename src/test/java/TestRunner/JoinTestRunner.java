@@ -9,11 +9,19 @@ public class JoinTestRunner extends SetUp {
     JoinWithUs joinWithUs;
 
     @Test
-    public void createAccountByEmailTest() throws InterruptedException {
+    public void joinByEmailTest() throws InterruptedException {
 
         driver.get("https://partnerforsqa.dev.uniteliving.com/login");
-
         joinWithUs = new JoinWithUs(driver);
-        joinWithUs.createAccountByEmail();
+        joinWithUs.joinByEmail();
+    }
+
+    @Test
+    public void joinByFacebookTest() throws InterruptedException {
+        driver.get("https://partnerforsqa.dev.uniteliving.com/login");
+        joinWithUs = new JoinWithUs(driver);
+        joinWithUs.joinByFacebook();
+
+
     }
 }

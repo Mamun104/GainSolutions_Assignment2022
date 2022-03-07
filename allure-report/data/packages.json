@@ -1,0 +1,89 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "TestRunner",
+    "children" : [ {
+      "name" : "LoginTestRunner",
+      "children" : [ {
+        "name" : "loginByEmailTest",
+        "uid" : "f0a4beaf4d2e9132",
+        "parentUid" : "429049b45cbfaf5b62a394f1be8ef2ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648420018,
+          "stop" : 1646648434248,
+          "duration" : 14230
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "429049b45cbfaf5b62a394f1be8ef2ff"
+    }, {
+      "name" : "JoinTestRunner",
+      "children" : [ {
+        "name" : "joinByEmailTest",
+        "uid" : "ffca1b40a2a4777e",
+        "parentUid" : "d77363ecf1cf47bc1ed91757e55db812",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648437061,
+          "stop" : 1646648458185,
+          "duration" : 21124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "joinByFacebookTest",
+        "uid" : "6c06770498b8391d",
+        "parentUid" : "d77363ecf1cf47bc1ed91757e55db812",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648458188,
+          "stop" : 1646648467718,
+          "duration" : 9530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d77363ecf1cf47bc1ed91757e55db812"
+    }, {
+      "name" : "AccountTestRunner",
+      "children" : [ {
+        "name" : "accountCreate",
+        "uid" : "221dda5c1699f6b",
+        "parentUid" : "37266d82352afede33dc164ca211bde5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646648475946,
+          "stop" : 1646648511094,
+          "duration" : 35148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37266d82352afede33dc164ca211bde5"
+    } ],
+    "uid" : "9e7afdbe7e41b29ce0ab7e10c3b29b29"
+  } ]
+}

@@ -14,12 +14,4 @@ public class LoginTestRunner extends SetUp {
         loginPage = new LoginPage(driver);
         loginPage.loginByEmail();
     }
-
-    @Test
-    public void loginByFacebookTest() throws InterruptedException {
-        driver.get("https://partnerforsqa.dev.uniteliving.com/login");
-        loginPage = new LoginPage(driver);
-        loginPage.loginByFacebook();
-    }
-
 }
