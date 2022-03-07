@@ -10,7 +10,7 @@ public class AccountTestRunner extends SetUp {
     CreateAccount createAccount;
     LoginPage loginPage;
 
-    @Test
+    @Test(description = "Create Account")
     public void accountCreate() throws InterruptedException {
         driver.get("https://partnerforsqa.dev.uniteliving.com/login");
         loginPage = new LoginPage(driver);

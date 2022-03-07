@@ -8,7 +8,7 @@ public class JoinTestRunner extends SetUp {
 
     JoinWithUs joinWithUs;
 
-    @Test
+    @Test(description = "Join by email")
     public void joinByEmailTest() throws InterruptedException {
 
         driver.get("https://partnerforsqa.dev.uniteliving.com/login");
@@ -16,7 +16,7 @@ public class JoinTestRunner extends SetUp {
         joinWithUs.joinByEmail();
     }
 
-    @Test
+    @Test(description = "Join by Facebook")
     public void joinByFacebookTest() throws InterruptedException {
         driver.get("https://partnerforsqa.dev.uniteliving.com/login");
         joinWithUs = new JoinWithUs(driver);

@@ -25,4 +25,10 @@ public class SetUp {
 
     }
 
+    @AfterTest
+    public void browserClose(){
+
+        driver.close();
+    }
+
 }
